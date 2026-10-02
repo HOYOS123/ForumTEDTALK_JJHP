@@ -1,3 +1,7 @@
+import { CONFIG, languageLabels } from "./config.js";
+import { moments } from "./moments.js";
+import { VisualSystem } from "./visualSystem.js";
+
 const canvas = document.querySelector("#visual-canvas");
 const stage = document.querySelector("#stage");
 const titleEl = document.querySelector("#moment-title");
